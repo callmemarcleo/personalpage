@@ -1,4 +1,31 @@
+.landingpage_container{
+  display: flex;
+}
+
+
+
 .container{
-  border: 1px solid white;
+  border: 2px solid white;
+}
+
+.welcome_container{
+  border: 2px solid yellow;
+
 
 }
+
+
+
+
+.image_container{
+  border: 2px solid blue;
+  display: flex;
+}
+
+
+.profile-image{
+
+  width: 20%;
+  height: 20%;
+}
+
