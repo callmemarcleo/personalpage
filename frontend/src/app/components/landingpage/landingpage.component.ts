@@ -8,14 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class LandingpageComponent implements OnInit {
 
   ngOnInit() {
-    const profileImage = document.getElementById('profile-image') as HTMLImageElement;
-    const imageTitle = document.getElementById('image-title') as HTMLParagraphElement;
-    const imageDescription = document.getElementById('image-description') as HTMLParagraphElement;
-    const toggleButton = document.getElementById('toggle-button') as HTMLButtonElement;
+    const profileImage = document.getElementsByClassName('profile-image')[0] as HTMLImageElement;
+    const imageTitle = document.getElementsByClassName('image-title')[0] as HTMLParagraphElement;
+    const imageDescription = document.getElementsByClassName('image-description')[0] as HTMLParagraphElement;
+    const toggleButton = document.getElementsByClassName('toggle-button')[0] as HTMLButtonElement;
 
     const images = [
       { src: 'https://i.ibb.co/9gHsxQ7/rightnowpants.jpg', title: 'TODAY', description: 'Student BFH' },
-      { src: 'frontend\src\assets\images\babypants.jpeg', title: 'BACK IN THE DAYS', description: 'uncool since 2000' }
+      { src: 'https://i.ibb.co/1XFSn1r/babypants.jpg', title: 'BACK IN THE DAYS', description: 'uncool since 2000' }
     ];
 
     let currentIndex = 0;
@@ -35,3 +35,4 @@ export class LandingpageComponent implements OnInit {
     updateImage();
   }
 }
+
