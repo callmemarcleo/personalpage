@@ -5,18 +5,17 @@
   
   
   .container{
-    border: 2px solid white;
+    background-color: gray;
   }
   
   .welcome_container{
-    border: 2px solid yellow;
+    background-color: lightgray;
   
   }
   
   
   .image_container{
-    border: 2px solid blue;
-    display: flex;
+    background-color: darkgray;
   }
   
   .profile-image{

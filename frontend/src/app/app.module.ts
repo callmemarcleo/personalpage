@@ -7,13 +7,15 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { ContactComponent } from './components/contact/contact.component';
 import { Router, RouterModule } from '@angular/router';
 import { InfoComponent } from './components/info/info.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingpageComponent,
     ContactComponent,
-    InfoComponent
+    InfoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
