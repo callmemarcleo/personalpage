@@ -1,6 +1,6 @@
 /* styles.css oder in der entsprechenden CSS-Datei deines Projekts */
 .navbar {
-  background-color: #333;
+  background-color: black;
   padding: 10px 0;
 }
 
@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .navbar li {
@@ -25,5 +25,5 @@
 }
 
 .navbar a:hover {
-  color: #ffd700; /* Ändere die Farbe für den Hover-Effekt nach Belieben */
+  color: lightgray; /* Ändere die Farbe für den Hover-Effekt nach Belieben */
 }
