@@ -3,6 +3,7 @@
   /*This part is important for centering*/
   display: grid;
   place-items: center;
+  margin: auto;
 }
 
 .typing-demo {
