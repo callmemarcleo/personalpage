@@ -6,12 +6,16 @@
 }
 
 .typing-demo {
-  width: 16ch;
+  width: 18ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  border-right: .06em solid orange;
   font-size: 7em;
+  text-transform: uppercase;
+  font-weight: 400;
+  
+
 }
 
 @keyframes typing {
