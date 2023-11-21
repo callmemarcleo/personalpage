@@ -5,42 +5,49 @@
   height: 90svh;
 }
 
+
+
 .mail-container{
   display: flex;
   flex-direction: column;
 }
 
 .mail-container p{
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 600;
-  letter-spacing: -.03em;
+  letter-spacing: -.035em;
+  line-height: 1;
   margin: 0;
 }
 
 .mail-wrapper{
   font-size: 2em;
-  margin-top: 1em;
+  font-weight: 500;
+  margin-top: 2em;
 }
+
+
 
 .link-container {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
   text-align: right;
 }
 
-.link-container h2{
-  font-size: 2em;
+#link-header{
+  font-size: 1em;
 }
-
 
 .link-wrapper {
   display: flex;
   flex-direction: column;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 600;
   letter-spacing: -.02em;
 }
+
 
 
 a {
