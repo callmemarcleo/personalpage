@@ -3,11 +3,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
   color: #fff;
-  /* Weitere globale Stile hier hinzufügen */
-  margin: 0;
-  padding: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  height: 95svh;
 }
 
 ::-webkit-scrollbar {
