@@ -18,6 +18,12 @@ img{
 }
 
 
+.logo{
+  height: 100px;
+  width: 100px;
+}
+
+
 
 .skill-container {
   display: flex;
