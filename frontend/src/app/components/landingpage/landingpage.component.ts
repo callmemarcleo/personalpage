@@ -16,7 +16,7 @@ export class LandingpageComponent implements OnInit {
 
   typewriterEffect() {
     let i = 0;
-    const speed = 80; // Anpassung der Schreibgeschwindigkeit
+    const speed = 80;
 
     const type = () => {
       if (i < this.titles[this.currentIndex].length) {
@@ -26,7 +26,7 @@ export class LandingpageComponent implements OnInit {
       } else {
         // Schreibvorgang abgeschlossen
         if (this.currentIndex < this.titles.length - 1) {
-          // Nicht der letzte Titel, starte Löschvorgang
+          // Start Löschvorgang
           setTimeout(() => this.deleteEffect(), 1000);
         }
       }
