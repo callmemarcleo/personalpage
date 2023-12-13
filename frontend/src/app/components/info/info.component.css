@@ -1,7 +1,6 @@
 .info-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   border: 3px solid red;
 }
@@ -13,8 +12,10 @@
 }
 
 .profile-image {
-  max-width: 20%;
-  height: auto;
+  width: 500px;
+  height: 700px;
+  object-fit: cover;
+  object-position: center;
 }
 
 
