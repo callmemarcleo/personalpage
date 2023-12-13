@@ -12,11 +12,27 @@
   border: 3px solid lightblue;
 }
 
-
 .profile-image {
   max-width: 20%;
   height: auto;
 }
+
+
+.image-switch-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.arrow-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 
 
 .skill-container {

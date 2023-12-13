@@ -10,7 +10,8 @@ export class InfoComponent implements OnInit {
     const profileImage = document.getElementsByClassName('profile-image')[0] as HTMLImageElement;
     const imageTitle = document.getElementsByClassName('image-title')[0] as HTMLParagraphElement;
     const imageDescription = document.getElementsByClassName('image-description')[0] as HTMLParagraphElement;
-    const toggleButton = document.getElementsByClassName('toggle-button')[0] as HTMLButtonElement;
+    const leftArrowButton = document.getElementsByClassName('left-arrow')[0] as HTMLButtonElement;
+    const rightArrowButton = document.getElementsByClassName('right-arrow')[0] as HTMLButtonElement;
 
     const images = [
       { src: 'https://i.ibb.co/9gHsxQ7/rightnowpants.jpg', title: 'TODAY', description: 'Student BFH' },
@@ -19,7 +20,12 @@ export class InfoComponent implements OnInit {
 
     let currentIndex = 0;
 
-    toggleButton.addEventListener('click', () => {
+    leftArrowButton.addEventListener('click', () => {
+      currentIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+      updateImage();
+    });
+
+    rightArrowButton.addEventListener('click', () => {
       currentIndex = (currentIndex + 1) % images.length;
       updateImage();
     });
