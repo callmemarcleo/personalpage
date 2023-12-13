@@ -1,7 +1,6 @@
 .info-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   border: 3px solid red;
 }
 
@@ -35,7 +34,6 @@
 }
 
 
-
 .skill-container {
   margin: auto;
   width: 40%;
@@ -50,14 +48,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 3rem;
 
 }
 
 
 .logo {
-  width: 200px; /* Setzen Sie die gewünschte Breite für Ihre Logos */
-  height: 200px; /* Setzen Sie die gewünschte Höhe für Ihre Logos */
+  width: 11rem; /* Setzen Sie die gewünschte Breite für Ihre Logos */
+  height: 11rem; /* Setzen Sie die gewünschte Höhe für Ihre Logos */
 }
 
 .logo img {
