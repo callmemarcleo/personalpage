@@ -1,20 +1,3 @@
-@keyframes slideUp {
-  from {
-    transform: translateY(100%); 
-    opacity: 0; 
-  }
-  to {
-    transform: translateY(0); 
-    opacity: 1; 
-  }
-}
-
-.page-animation {
-  animation: slideUp 2s ease forwards;
-  width: 100%;
-  min-height: 100vh;
-}
-
 
 .info-container {
   display: flex;
@@ -22,10 +5,18 @@
   border: 3px solid red;
 }
 
+.left-container {
+  border: 3px solid yellow;
+
+}
 
 .right-container {
 
   border: 3px solid lightblue;
+}
+
+.image-title {
+  text-align: center;
 }
 
 .profile-image {
@@ -33,6 +24,14 @@
   height: 700px;
   object-fit: cover;
   object-position: center;
+}
+
+
+
+
+.image-description {
+  text-align: center;
+
 }
 
 
@@ -44,8 +43,6 @@
 }
 
 .arrow-button {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
   padding: 5px 10px;
   cursor: pointer;
   font-size: 20px;
