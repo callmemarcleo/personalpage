@@ -7,7 +7,6 @@
   position: fixed;
 }
 
-
 .info-container {
   display: flex;
   flex-direction: row;
@@ -17,7 +16,6 @@
 
 .left-container {
   border: 3px solid yellow;
-
 }
 
 .right-container {
@@ -35,12 +33,9 @@
   object-position: center;
 }
 
-
 .image-description {
   text-align: center;
-
 }
-
 
 .image-switch-buttons {
   display: flex;
@@ -49,6 +44,15 @@
   width: 100%;
 }
 
+.arrow-button{
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.arrow-button:focus {
+  outline: none; 
+}
 
 .fa-solid {
   color: #ffffff;
@@ -69,7 +73,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
-
 }
 
 
