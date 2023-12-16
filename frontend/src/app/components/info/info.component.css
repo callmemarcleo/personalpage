@@ -28,7 +28,7 @@
   text-align: center;
 }
 
-.profile-image {
+.image-profile {
   width: 500px;
   height: 700px;
   object-fit: cover;
@@ -44,17 +44,15 @@
 
 .image-switch-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.arrow-button {
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 20px;
-}
 
+.fa-solid {
+  color: #ffffff;
+}
 
 .skill-container {
   margin: auto;
@@ -85,3 +83,4 @@
   height: 100%; 
   object-fit: contain; 
 }
+

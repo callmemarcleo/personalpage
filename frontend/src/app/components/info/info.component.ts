@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoComponent implements OnInit {
   ngOnInit() {
-    const profileImage = document.getElementsByClassName('profile-image')[0] as HTMLImageElement;
+    const profileImage = document.getElementsByClassName('image-profile')[0] as HTMLImageElement;
     const imageTitle = document.getElementsByClassName('image-title')[0] as HTMLParagraphElement;
     const imageDescription = document.getElementsByClassName('image-description')[0] as HTMLParagraphElement;
     const leftArrowButton = document.getElementsByClassName('left-arrow')[0] as HTMLButtonElement;
