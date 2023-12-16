@@ -21,7 +21,6 @@
 }
 
 .right-container {
-
   border: 3px solid lightblue;
 }
 
@@ -35,8 +34,6 @@
   object-fit: cover;
   object-position: center;
 }
-
-
 
 
 .image-description {
@@ -79,12 +76,12 @@
 
 
 .logo {
-  width: 11rem; /* Setzen Sie die gewünschte Breite für Ihre Logos */
-  height: 11rem; /* Setzen Sie die gewünschte Höhe für Ihre Logos */
+  width: 11rem; 
+  height: 11rem; 
 }
 
 .logo img {
-  width: 100%; /* Stellt sicher, dass das Bild die festgelegte Breite einnimmt */
-  height: 100%; /* Stellt sicher, dass das Bild die festgelegte Höhe einnimmt */
-  object-fit: contain; /* Behält das Seitenverhältnis bei und füllt den Container vollständig aus, ohne das Bild zu strecken oder zu beschneiden */
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
 }
