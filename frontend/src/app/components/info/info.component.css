@@ -9,15 +9,14 @@
 
 .info-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  border: 3px solid red;
   margin-top: 6rem;
 }
 
 .left-container {
-  border: 3px solid yellow;
-  width: 40%;
-  padding: 10px;
+  max-width: 60%;
+  padding: 0.625rem;
 }
 
 .about-me-container{
@@ -27,22 +26,31 @@
 
 
 .right-container {
-  border: 3px solid lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-title {
   text-align: center;
+  font-size: 1.8em;
+  font-weight: 700;
+
 }
 
 .image-profile {
-  width: 500px;
-  height: 700px;
+  width: 31.25rem;
+  height: 43.75rem;
   object-fit: cover;
   object-position: center;
+  border-radius: 0.625rem;
 }
 
 .image-description {
   text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .image-switch-buttons {
@@ -50,6 +58,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 0.25rem;
 }
 
 .arrow-button{
@@ -57,12 +66,13 @@
   border: none;
   outline: none;
   cursor: pointer;
-  transition: transform 0.2s; 
+  transition: transform 0.5s; 
 }
 
 .arrow-button:hover .fa-solid {
   display: inline-block;
   transform: scale(1.1); 
+  opacity: 0.8;
 }
 
 .arrow-button:active .fa-solid {
@@ -103,3 +113,5 @@
   object-fit: contain; 
 }
 
+.cv-container {
+  display: flex;
