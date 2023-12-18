@@ -56,14 +56,22 @@
   background: none;
   border: none;
   outline: none;
+  cursor: pointer;
+  transition: transform 0.2s; 
 }
 
-.arrow-button:focus {
-  outline: none; 
+.arrow-button:hover .fa-solid {
+  display: inline-block;
+  transform: scale(1.1); 
+}
+
+.arrow-button:active .fa-solid {
+  transform: scale(1.2); 
 }
 
 .fa-solid {
   color: #ffffff;
+  display: inline-block;
 }
 
 .skill-container {
@@ -71,8 +79,6 @@
   width: 40%;
   padding: 10px;
 }
-
-
 
 .skill-container h2 {
   text-align: center;
