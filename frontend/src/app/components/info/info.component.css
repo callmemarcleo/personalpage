@@ -9,14 +9,22 @@
 
 .info-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   border: 3px solid red;
   margin-top: 6rem;
 }
 
 .left-container {
   border: 3px solid yellow;
+  width: 40%;
+  padding: 10px;
 }
+
+.about-me-container{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
 
 .right-container {
   border: 3px solid lightblue;
@@ -63,6 +71,8 @@
   width: 40%;
   padding: 10px;
 }
+
+
 
 .skill-container h2 {
   text-align: center;
