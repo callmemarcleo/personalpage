@@ -12,6 +12,7 @@
   text-transform: uppercase;
   overflow: hidden;
   border-right: .1em solid orange;
+  padding-top: 0.8rem;
   white-space: nowrap;
   animation: typing 3s steps(30, end), blink-caret .5s step-end infinite;
 }
