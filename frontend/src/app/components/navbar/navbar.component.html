@@ -1,14 +1,15 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-
-
-<nav class="navbar">
-  <input type="checkbox" id="active" (change)="onCheckboxChange($event)">
-  <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-  <div class="wrapper">
-    <ul>
-      <li><a routerLink="/" (click)="closeMenu()">MH</a></li>
-      <li><a routerLink="/info" (click)="closeMenu()">INFO</a></li>
-      <li><a routerLink="/contact" (click)="closeMenu()">CONTACT</a></li>
-    </ul>
+<div class="navbar" [class.active]="isActive">
+  <div class="ham-btn" (click)="showNav()">
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
-</nav>
+  <div class="links">
+    <div class="link">
+      <ul>
+        <li><a routerLink="/" (click)="closeMenu()">MH</a></li>
+        <li><a routerLink="/info" (click)="closeMenu()">INFO</a></li>
+        <li><a routerLink="/contact" (click)="closeMenu()">CONTACT</a></li>
+      </ul>
+    </div>
+</div>

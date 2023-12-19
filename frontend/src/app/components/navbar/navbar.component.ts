@@ -1,4 +1,3 @@
-// navbar.component.ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,16 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  onCheckboxChange(event: Event): void {
-    const checkbox = event.target as HTMLInputElement;
 
-    if (!checkbox.checked) {
-      this.closeMenu();
-    }
+  isActive = false;
+
+  showNav(): void {
+    this.isActive = !this.isActive;
   }
 
   closeMenu(): void {
-    const checkbox = document.getElementById('active') as HTMLInputElement;
-    checkbox.checked = false;
+    this.isActive = false;
   }
 }
