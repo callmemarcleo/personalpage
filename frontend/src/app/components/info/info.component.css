@@ -85,36 +85,21 @@
   display: inline-block;
 }
 
-.skill-container {
-  margin: auto;
-  width: 40%;
-  padding: 0.625rem;
-}
-
-.skill-container h2 {
-  text-align: center;
-}
-
-.tech-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
-}
-
-
-.logo {
-  width: 11rem; 
-  height: 11rem; 
-}
-
-.logo img {
-  width: 100%; 
-  height: 100%; 
-  object-fit: contain; 
-}
 
 .cv-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding: 1rem 0;
+  width: 30%;
+  margin: auto;
+  font-size: 1.2em;
+}
 
+@media (max-width: 600px) {
+  .cv-container {
+    flex-direction: column;
+    align-items: start;
+  }
 }
