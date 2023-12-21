@@ -13,3 +13,5 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+@import '~aos/dist/aos.css';
