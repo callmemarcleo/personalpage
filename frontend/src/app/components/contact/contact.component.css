@@ -78,6 +78,14 @@
   text-align: right;
 }
 
+.gif-container p{
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: -.035em;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
 .gif-container img{
     width: auto;
     height: 21.875rem;
