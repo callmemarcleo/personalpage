@@ -15,7 +15,7 @@ export class InfoComponent implements OnInit {
 
     const images = [
       { src: 'assets/images/rightnowpants.jpg', title: 'TODAY', description: 'Student BFH' },
-      { src: 'assets/images/babypants.jpg', title: 'BACK IN THE DAYS', description: 'uncool since 2000' }
+      { src: 'assets/images/babypants.jpeg', title: 'BACK IN THE DAYS', description: 'uncool since 2000' }
     ];
 
     let currentIndex = 0;
