@@ -14,8 +14,8 @@ export class InfoComponent implements OnInit {
     const rightArrowButton = document.getElementsByClassName('right-arrow')[0] as HTMLButtonElement;
 
     const images = [
-      { src: 'https://i.ibb.co/9gHsxQ7/rightnowpants.jpg', title: 'TODAY', description: 'Student BFH' },
-      { src: 'https://i.ibb.co/1XFSn1r/babypants.jpg', title: 'BACK IN THE DAYS', description: 'uncool since 2000' }
+      { src: 'assets/images/rightnowpants.jpg', title: 'TODAY', description: 'Student BFH' },
+      { src: 'assets/images/babypants.jpg', title: 'BACK IN THE DAYS', description: 'uncool since 2000' }
     ];
 
     let currentIndex = 0;
