@@ -19,7 +19,7 @@ export class ContactComponent implements OnInit {
   }
 
   getTime() {
-    this.http.get('http://worldtimeapi.org/api/timezone/Europe/Zurich')
+    this.http.get('https://worldtimeapi.org/api/timezone/Europe/Zurich')
       .subscribe((response: any) => {
         const date = new Date(response.datetime);
         this.timeInSwitzerland = date.toLocaleTimeString('de-CH', {
