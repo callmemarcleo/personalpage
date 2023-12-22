@@ -1,3 +1,32 @@
+@media (max-width: 1024px) { /* Tablets and small laptops */
+  .left-container,
+  .right-container {
+    max-width: 100%;
+  }
+  .personal-container p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) { /* Tablets */
+  .image-title,
+  .image-description {
+    font-size: 1em; /* Adjust as necessary */
+  }
+}
+
+@media (max-width: 480px) { /* Mobile phones */
+  .info-container,
+  .personal-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cv-container {
+    width: 100%;
+  }
+}
+
+
 .title{
   background-color: #000;
   top: 0%;
@@ -23,7 +52,7 @@
 
 
 .about-me-container{
-  font-size: 3em;
+  font-size: clamp(1.5rem, 5vw, 3em);
   font-weight: 400;
 }
 
@@ -37,9 +66,8 @@
 
 .image-title {
   text-align: center;
-  font-size: 2.1em;
+  font-size: clamp(0.8rem, 5vw, 2.1em);
   font-weight: 700;
-
 }
 
 .image-profile {
@@ -52,7 +80,7 @@
 
 .image-description {
   text-align: center;
-  font-size: 1.4em;
+  font-size: clamp(0.6rem, 5vw, 1.4em);
   font-weight: 500;
 }
 
@@ -103,13 +131,14 @@
 
 .personal-container p{
   max-width: 40%;
+  font-size: clamp(1.2rem, 5vw, 1.9em);
   font-size: 1.9em;
 }
 
 
 
 .timeline-container {
-  margin-top: 4rem;
+  margin-top: 7rem;
   padding-bottom: 1.25rem;
 }
 
@@ -121,16 +150,10 @@
   justify-content: space-between;
   border-bottom: 0.188rem solid #ffffff;
   padding: 1rem 0;
-  width: 30%;
+  width: 40%;
   margin: auto;
-  font-size: 1.8em;
+  font-size: clamp(0.8rem, 5vw, 1.7em);
 }
 
 
 
-@media (max-width: 600px) {
-  .cv-container {
-    flex-direction: column;
-    align-items: start;
-  }
-}
