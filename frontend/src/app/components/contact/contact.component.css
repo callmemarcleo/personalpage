@@ -1,3 +1,33 @@
+
+@media (max-width: 768px) {
+  .mail-container p {
+    font-size: 4vw; /* Adjust the value as needed */
+  }
+  .mail-wrapper {
+    font-size: 1.5em;
+  }
+  .link-wrapper {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 480px) {
+  .mail-container p {
+    font-size: 5vw;
+  }
+  .mail-wrapper {
+    font-size: 1em;
+  }
+  .link-wrapper {
+    font-size: 2em;
+  }
+  .link-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
 .title{
   background-color: #000;
   top: 0%;
@@ -20,6 +50,7 @@
 .mail-container{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .mail-container p{
